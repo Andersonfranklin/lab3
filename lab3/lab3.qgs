@@ -1,5 +1,6 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="3.0.3-Girona">
+<qgis version="3.4.4-Madeira" projectname="">
+  <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
@@ -10,7 +11,7 @@
       <srsid>3857</srsid>
       <srid>3857</srid>
       <authid>EPSG:3857</authid>
-      <description>WGS 84 / Pseudo Mercator</description>
+      <description>WGS 84 / Pseudo-Mercator</description>
       <projectionacronym>merc</projectionacronym>
       <ellipsoidacronym>WGS84</ellipsoidacronym>
       <geographicflag>false</geographicflag>
@@ -18,72 +19,53 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer checked="Qt::Checked" id="Latest_southwest_British_Columbia_Landsat_a921e6b8_c523_4c07_b513_1dad651b8818" providerKey="wms" expanded="1" name="Latest southwest British Columbia Landsat" source="type=xyz&amp;zmin=5&amp;zmax=13&amp;url=http://a.tile.paulnorman.ca/landsat_047026/{z}/{x}/{y}.png">
+    <layer-tree-layer name="BldBuilding_tall" checked="Qt::Checked" id="BldBuilding_tall_b5b9c686_6759_4264_ad30_47f9a8187c7f" source="./shapefiles/BldBuilding_tall.shp|layername=BldBuilding_tall" providerKey="ogr" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" id="N49W125_45887736_00d3_4782_b092_c3725da0fab2" providerKey="gdal" expanded="1" name="N49W125" source="./photos/N49W125.tif">
+    <layer-tree-layer name="ubc_buildings_tall2" checked="Qt::Checked" id="ubc_buildings_tall2_e6db49da_0d97_4291_b0a9_e6dbfecff424" source="./shapefiles/ubc_buildings_tall2.shp|layername=ubc_buildings_tall2" providerKey="ogr" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" id="N49W124_98a21620_db9c_469a_b976_955a58fbd619" providerKey="gdal" expanded="1" name="N49W124" source="./photos/N49W124.tif">
+    <layer-tree-layer name="building_footprints_2009_tall" checked="Qt::Checked" id="building_footprints_2009_tall_205b7b32_4467_4dea_ad02_bf813a3ed58d" source="./shapefiles/building_footprints_2009_tall.shp|layername=building_footprints_2009_tall" providerKey="ogr" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" id="N49W123_07f5d14c_1291_4f03_a223_c0fed00d8fea" providerKey="gdal" expanded="1" name="N49W123" source="./photos/N49W123.tif">
+    <layer-tree-layer name="Mountains" checked="Qt::Checked" id="Mountains_2bbee56b_6d65_4dcf_baa8_d2977d08a0c0" source="./shapefiles/Mountains.shp" providerKey="ogr" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" id="N49W122_d4abe877_6fc0_44cd_9863_62c49355074a" providerKey="gdal" expanded="1" name="N49W122" source="./photos/N49W122.tif">
+    <layer-tree-layer name="Latest southwest British Columbia Landsat" checked="Qt::Unchecked" id="Latest_southwest_British_Columbia_Landsat_a921e6b8_c523_4c07_b513_1dad651b8818" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://a.tile.paulnorman.ca/landsat_047026/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=13&amp;zmin=5" providerKey="wms" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" id="N48W125_75c96090_400d_4608_b15e_993f37e7c90e" providerKey="gdal" expanded="1" name="N48W125" source="./photos/N48W125.tif">
+    <layer-tree-layer name="Google Satellite" checked="Qt::Checked" id="Google_Satellite_505efa13_89b4_489d_a691_12e8444191bd" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=19&amp;zmin=0" providerKey="wms" expanded="1">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" id="N48W124_7a4c5b73_643d_46df_85b4_eca883a817a4" providerKey="gdal" expanded="1" name="N48W124" source="./photos/N48W124.tif">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" id="N48W123_9f64fa35_70f1_48b1_b45f_0ffb52e46c8c" providerKey="gdal" expanded="1" name="N48W123" source="./photos/N48W123.tif">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" id="N48W122_88572890_2645_4686_bdcf_9f6b2cb599ab" providerKey="gdal" expanded="1" name="N48W122" source="./photos/N48W122.tif">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" id="N47W125_27b15ec0_83b1_4697_b9c1_39aba1f58294" providerKey="gdal" expanded="1" name="N47W125" source="./photos/N47W125.tif">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" id="N47W124_2d1c6c0b_524d_41ca_8057_b2707a2dddb4" providerKey="gdal" expanded="1" name="N47W124" source="./photos/N47W124.tif">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" id="N47W123_281df54a_c0d1_4648_832d_ecfa0c1999c5" providerKey="gdal" expanded="1" name="N47W123" source="./photos/N47W123.tif">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer checked="Qt::Checked" id="N47W122_d2cfd856_97e4_4f86_9613_4d571c5422fa" providerKey="gdal" expanded="1" name="N47W122" source="./photos/N47W122.tif">
+    <layer-tree-layer name="merged" checked="Qt::Unchecked" id="merged_1e815b49_3e50_4f11_aafa_114c22d8055e" source="./photos/merged.tif" providerKey="gdal" expanded="1">
       <customproperties/>
     </layer-tree-layer>
     <custom-order enabled="0">
       <item>Latest_southwest_British_Columbia_Landsat_a921e6b8_c523_4c07_b513_1dad651b8818</item>
-      <item>N47W122_d2cfd856_97e4_4f86_9613_4d571c5422fa</item>
-      <item>N47W123_281df54a_c0d1_4648_832d_ecfa0c1999c5</item>
-      <item>N47W124_2d1c6c0b_524d_41ca_8057_b2707a2dddb4</item>
-      <item>N47W125_27b15ec0_83b1_4697_b9c1_39aba1f58294</item>
-      <item>N48W122_88572890_2645_4686_bdcf_9f6b2cb599ab</item>
-      <item>N48W123_9f64fa35_70f1_48b1_b45f_0ffb52e46c8c</item>
-      <item>N48W124_7a4c5b73_643d_46df_85b4_eca883a817a4</item>
-      <item>N48W125_75c96090_400d_4608_b15e_993f37e7c90e</item>
-      <item>N49W122_d4abe877_6fc0_44cd_9863_62c49355074a</item>
-      <item>N49W123_07f5d14c_1291_4f03_a223_c0fed00d8fea</item>
-      <item>N49W124_98a21620_db9c_469a_b976_955a58fbd619</item>
-      <item>N49W125_45887736_00d3_4782_b092_c3725da0fab2</item>
+      <item>merged_1e815b49_3e50_4f11_aafa_114c22d8055e</item>
+      <item>Google_Satellite_505efa13_89b4_489d_a691_12e8444191bd</item>
+      <item>Mountains_2bbee56b_6d65_4dcf_baa8_d2977d08a0c0</item>
+      <item>building_footprints_2009_tall_205b7b32_4467_4dea_ad02_bf813a3ed58d</item>
+      <item>BldBuilding_tall_b5b9c686_6759_4264_ad30_47f9a8187c7f</item>
+      <item>ubc_buildings_tall2_e6db49da_0d97_4291_b0a9_e6dbfecff424</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings unit="1" type="1" mode="2" enabled="1" intersection-snapping="0" tolerance="10">
-    <individual-layer-settings/>
+  <snapping-settings unit="1" tolerance="10" enabled="1" mode="2" intersection-snapping="0" type="1">
+    <individual-layer-settings>
+      <layer-setting units="1" tolerance="12" id="Mountains_2bbee56b_6d65_4dcf_baa8_d2977d08a0c0" enabled="0" type="1"/>
+      <layer-setting units="1" tolerance="12" id="building_footprints_2009_tall_205b7b32_4467_4dea_ad02_bf813a3ed58d" enabled="0" type="1"/>
+      <layer-setting units="1" tolerance="12" id="BldBuilding_tall_b5b9c686_6759_4264_ad30_47f9a8187c7f" enabled="0" type="1"/>
+      <layer-setting units="1" tolerance="12" id="ubc_buildings_tall2_e6db49da_0d97_4291_b0a9_e6dbfecff424" enabled="0" type="1"/>
+    </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>-14125573.25351783446967602</xmin>
-      <ymin>5670913.81777966767549515</ymin>
-      <xmax>-13159739.83469276688992977</xmax>
-      <ymax>6684796.35223911702632904</ymax>
+      <xmin>-13759785.25865386985242367</xmin>
+      <ymin>6299418.31060157436877489</ymin>
+      <xmax>-13567080.04385281167924404</xmax>
+      <ymax>6334073.30676520336419344</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -92,7 +74,7 @@
         <srsid>3857</srsid>
         <srid>3857</srid>
         <authid>EPSG:3857</authid>
-        <description>WGS 84 / Pseudo Mercator</description>
+        <description>WGS 84 / Pseudo-Mercator</description>
         <projectionacronym>merc</projectionacronym>
         <ellipsoidacronym>WGS84</ellipsoidacronym>
         <geographicflag>false</geographicflag>
@@ -100,96 +82,951 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
   </mapcanvas>
+  <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" name="Latest southwest British Columbia Landsat" drawingOrder="-1">
+    <legendlayer open="true" name="BldBuilding_tall" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="Latest_southwest_British_Columbia_Landsat_a921e6b8_c523_4c07_b513_1dad651b8818"/>
+        <legendlayerfile isInOverview="0" layerid="BldBuilding_tall_b5b9c686_6759_4264_ad30_47f9a8187c7f" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" name="N49W125" drawingOrder="-1">
+    <legendlayer open="true" name="ubc_buildings_tall2" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="N49W125_45887736_00d3_4782_b092_c3725da0fab2"/>
+        <legendlayerfile isInOverview="0" layerid="ubc_buildings_tall2_e6db49da_0d97_4291_b0a9_e6dbfecff424" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" name="N49W124" drawingOrder="-1">
+    <legendlayer open="true" name="building_footprints_2009_tall" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="N49W124_98a21620_db9c_469a_b976_955a58fbd619"/>
+        <legendlayerfile isInOverview="0" layerid="building_footprints_2009_tall_205b7b32_4467_4dea_ad02_bf813a3ed58d" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" name="N49W123" drawingOrder="-1">
+    <legendlayer open="true" name="Mountains" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="N49W123_07f5d14c_1291_4f03_a223_c0fed00d8fea"/>
+        <legendlayerfile isInOverview="0" layerid="Mountains_2bbee56b_6d65_4dcf_baa8_d2977d08a0c0" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" name="N49W122" drawingOrder="-1">
+    <legendlayer open="true" name="Latest southwest British Columbia Landsat" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="N49W122_d4abe877_6fc0_44cd_9863_62c49355074a"/>
+        <legendlayerfile isInOverview="0" layerid="Latest_southwest_British_Columbia_Landsat_a921e6b8_c523_4c07_b513_1dad651b8818" visible="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" name="N48W125" drawingOrder="-1">
+    <legendlayer open="true" name="Google Satellite" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="N48W125_75c96090_400d_4608_b15e_993f37e7c90e"/>
+        <legendlayerfile isInOverview="0" layerid="Google_Satellite_505efa13_89b4_489d_a691_12e8444191bd" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" name="N48W124" drawingOrder="-1">
+    <legendlayer open="true" name="merged" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="N48W124_7a4c5b73_643d_46df_85b4_eca883a817a4"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" name="N48W123" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="N48W123_9f64fa35_70f1_48b1_b45f_0ffb52e46c8c"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" name="N48W122" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="N48W122_88572890_2645_4686_bdcf_9f6b2cb599ab"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" name="N47W125" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="N47W125_27b15ec0_83b1_4697_b9c1_39aba1f58294"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" name="N47W124" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="N47W124_2d1c6c0b_524d_41ca_8057_b2707a2dddb4"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" name="N47W123" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="N47W123_281df54a_c0d1_4648_832d_ecfa0c1999c5"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer checked="Qt::Checked" open="true" showFeatureCount="0" name="N47W122" drawingOrder="-1">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="N47W122_d2cfd856_97e4_4f86_9613_4d571c5422fa"/>
+        <legendlayerfile isInOverview="0" layerid="merged_1e815b49_3e50_4f11_aafa_114c22d8055e" visible="0"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
   <projectlayers>
-    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0" minScale="1e+8" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
+    <maplayer minScale="1e+08" refreshOnNotifyMessage="" labelsEnabled="0" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" readOnly="0" geometry="Polygon" simplifyDrawingHints="1" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" autoRefreshTime="0" autoRefreshEnabled="0" type="vector" maxScale="0">
+      <extent>
+        <xmin>490982.24481250159442425</xmin>
+        <ymin>5462091.49712500348687172</ymin>
+        <xmax>497790.43868750147521496</xmax>
+        <ymax>5464374.70368750393390656</ymax>
+      </extent>
+      <id>BldBuilding_tall_b5b9c686_6759_4264_ad30_47f9a8187c7f</id>
+      <datasource>./shapefiles/BldBuilding_tall.shp|layername=BldBuilding_tall</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>BldBuilding_tall</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=10 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2287</srsid>
+          <srid>26910</srid>
+          <authid>EPSG:26910</authid>
+          <description>NAD83 / UTM zone 10N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" alpha="1" force_rhr="0" type="fill">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="207,207,203,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="OBJECTID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ASSET_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLDG_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLDGCLASS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLDGCLASS_">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLDGTYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLDGTYPE_R">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLDGSUBTYP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLDGSUBT00">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PRIMARYUSE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PRIMARYU00">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SECONDARYU">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SECONDAR00">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PREPLAN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="POPULATION">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="INHERIT_DA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AM_OWNER">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AM_OWNER_R">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AM_DEPT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AM_DEPT_RE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AM_DATE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AM_MATERIA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AM_SIZE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AM_TYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AM_ESTIMAT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MET_GATHER">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MET_DONOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MET_DONOR_">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MET_FORMAT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MET_FORM00">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MET_INPUT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MET_TECH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MET_TECH_R">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MET_METHOD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MET_METH00">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MET_REFILE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RULEID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RULEID_RES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OVERRIDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RULEID_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RULEID_1_R">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OVERRIDE_1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RULEID_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RULEID_2_R">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OVERRIDE_2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RULEID_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RULEID_3_R">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OVERRIDE_3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RULEID_5">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RULEID_5_R">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OVERRIDE_5">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RULEID_6">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RULEID_6_R">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OVERRIDE_6">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GLOBALID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NUMSTORIES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STRUCTURAL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STRUCTUR00">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COMMENTS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ARTIFICIAL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ARTIFICI00">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CREATEDUSE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CREATEDDAT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LASTEDITOR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LASTEDITDA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HEIGHT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SHAPE_STAR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SHAPE_STLE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="OBJECTID"/>
+        <alias index="1" name="" field="ASSET_ID"/>
+        <alias index="2" name="" field="BLDG_NAME"/>
+        <alias index="3" name="" field="BLDGCLASS"/>
+        <alias index="4" name="" field="BLDGCLASS_"/>
+        <alias index="5" name="" field="BLDGTYPE"/>
+        <alias index="6" name="" field="BLDGTYPE_R"/>
+        <alias index="7" name="" field="BLDGSUBTYP"/>
+        <alias index="8" name="" field="BLDGSUBT00"/>
+        <alias index="9" name="" field="PRIMARYUSE"/>
+        <alias index="10" name="" field="PRIMARYU00"/>
+        <alias index="11" name="" field="SECONDARYU"/>
+        <alias index="12" name="" field="SECONDAR00"/>
+        <alias index="13" name="" field="PREPLAN"/>
+        <alias index="14" name="" field="POPULATION"/>
+        <alias index="15" name="" field="INHERIT_DA"/>
+        <alias index="16" name="" field="AM_OWNER"/>
+        <alias index="17" name="" field="AM_OWNER_R"/>
+        <alias index="18" name="" field="AM_DEPT"/>
+        <alias index="19" name="" field="AM_DEPT_RE"/>
+        <alias index="20" name="" field="AM_DATE"/>
+        <alias index="21" name="" field="AM_MATERIA"/>
+        <alias index="22" name="" field="AM_SIZE"/>
+        <alias index="23" name="" field="AM_TYPE"/>
+        <alias index="24" name="" field="AM_ESTIMAT"/>
+        <alias index="25" name="" field="MET_GATHER"/>
+        <alias index="26" name="" field="MET_DONOR"/>
+        <alias index="27" name="" field="MET_DONOR_"/>
+        <alias index="28" name="" field="MET_FORMAT"/>
+        <alias index="29" name="" field="MET_FORM00"/>
+        <alias index="30" name="" field="MET_INPUT"/>
+        <alias index="31" name="" field="MET_TECH"/>
+        <alias index="32" name="" field="MET_TECH_R"/>
+        <alias index="33" name="" field="MET_METHOD"/>
+        <alias index="34" name="" field="MET_METH00"/>
+        <alias index="35" name="" field="MET_REFILE"/>
+        <alias index="36" name="" field="RULEID"/>
+        <alias index="37" name="" field="RULEID_RES"/>
+        <alias index="38" name="" field="OVERRIDE"/>
+        <alias index="39" name="" field="RULEID_1"/>
+        <alias index="40" name="" field="RULEID_1_R"/>
+        <alias index="41" name="" field="OVERRIDE_1"/>
+        <alias index="42" name="" field="RULEID_2"/>
+        <alias index="43" name="" field="RULEID_2_R"/>
+        <alias index="44" name="" field="OVERRIDE_2"/>
+        <alias index="45" name="" field="RULEID_3"/>
+        <alias index="46" name="" field="RULEID_3_R"/>
+        <alias index="47" name="" field="OVERRIDE_3"/>
+        <alias index="48" name="" field="RULEID_5"/>
+        <alias index="49" name="" field="RULEID_5_R"/>
+        <alias index="50" name="" field="OVERRIDE_5"/>
+        <alias index="51" name="" field="RULEID_6"/>
+        <alias index="52" name="" field="RULEID_6_R"/>
+        <alias index="53" name="" field="OVERRIDE_6"/>
+        <alias index="54" name="" field="GLOBALID"/>
+        <alias index="55" name="" field="NUMSTORIES"/>
+        <alias index="56" name="" field="STRUCTURAL"/>
+        <alias index="57" name="" field="STRUCTUR00"/>
+        <alias index="58" name="" field="COMMENTS"/>
+        <alias index="59" name="" field="ARTIFICIAL"/>
+        <alias index="60" name="" field="ARTIFICI00"/>
+        <alias index="61" name="" field="CREATEDUSE"/>
+        <alias index="62" name="" field="CREATEDDAT"/>
+        <alias index="63" name="" field="LASTEDITOR"/>
+        <alias index="64" name="" field="LASTEDITDA"/>
+        <alias index="65" name="" field="HEIGHT"/>
+        <alias index="66" name="" field="SHAPE_STAR"/>
+        <alias index="67" name="" field="SHAPE_STLE"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="OBJECTID" applyOnUpdate="0" expression=""/>
+        <default field="ASSET_ID" applyOnUpdate="0" expression=""/>
+        <default field="BLDG_NAME" applyOnUpdate="0" expression=""/>
+        <default field="BLDGCLASS" applyOnUpdate="0" expression=""/>
+        <default field="BLDGCLASS_" applyOnUpdate="0" expression=""/>
+        <default field="BLDGTYPE" applyOnUpdate="0" expression=""/>
+        <default field="BLDGTYPE_R" applyOnUpdate="0" expression=""/>
+        <default field="BLDGSUBTYP" applyOnUpdate="0" expression=""/>
+        <default field="BLDGSUBT00" applyOnUpdate="0" expression=""/>
+        <default field="PRIMARYUSE" applyOnUpdate="0" expression=""/>
+        <default field="PRIMARYU00" applyOnUpdate="0" expression=""/>
+        <default field="SECONDARYU" applyOnUpdate="0" expression=""/>
+        <default field="SECONDAR00" applyOnUpdate="0" expression=""/>
+        <default field="PREPLAN" applyOnUpdate="0" expression=""/>
+        <default field="POPULATION" applyOnUpdate="0" expression=""/>
+        <default field="INHERIT_DA" applyOnUpdate="0" expression=""/>
+        <default field="AM_OWNER" applyOnUpdate="0" expression=""/>
+        <default field="AM_OWNER_R" applyOnUpdate="0" expression=""/>
+        <default field="AM_DEPT" applyOnUpdate="0" expression=""/>
+        <default field="AM_DEPT_RE" applyOnUpdate="0" expression=""/>
+        <default field="AM_DATE" applyOnUpdate="0" expression=""/>
+        <default field="AM_MATERIA" applyOnUpdate="0" expression=""/>
+        <default field="AM_SIZE" applyOnUpdate="0" expression=""/>
+        <default field="AM_TYPE" applyOnUpdate="0" expression=""/>
+        <default field="AM_ESTIMAT" applyOnUpdate="0" expression=""/>
+        <default field="MET_GATHER" applyOnUpdate="0" expression=""/>
+        <default field="MET_DONOR" applyOnUpdate="0" expression=""/>
+        <default field="MET_DONOR_" applyOnUpdate="0" expression=""/>
+        <default field="MET_FORMAT" applyOnUpdate="0" expression=""/>
+        <default field="MET_FORM00" applyOnUpdate="0" expression=""/>
+        <default field="MET_INPUT" applyOnUpdate="0" expression=""/>
+        <default field="MET_TECH" applyOnUpdate="0" expression=""/>
+        <default field="MET_TECH_R" applyOnUpdate="0" expression=""/>
+        <default field="MET_METHOD" applyOnUpdate="0" expression=""/>
+        <default field="MET_METH00" applyOnUpdate="0" expression=""/>
+        <default field="MET_REFILE" applyOnUpdate="0" expression=""/>
+        <default field="RULEID" applyOnUpdate="0" expression=""/>
+        <default field="RULEID_RES" applyOnUpdate="0" expression=""/>
+        <default field="OVERRIDE" applyOnUpdate="0" expression=""/>
+        <default field="RULEID_1" applyOnUpdate="0" expression=""/>
+        <default field="RULEID_1_R" applyOnUpdate="0" expression=""/>
+        <default field="OVERRIDE_1" applyOnUpdate="0" expression=""/>
+        <default field="RULEID_2" applyOnUpdate="0" expression=""/>
+        <default field="RULEID_2_R" applyOnUpdate="0" expression=""/>
+        <default field="OVERRIDE_2" applyOnUpdate="0" expression=""/>
+        <default field="RULEID_3" applyOnUpdate="0" expression=""/>
+        <default field="RULEID_3_R" applyOnUpdate="0" expression=""/>
+        <default field="OVERRIDE_3" applyOnUpdate="0" expression=""/>
+        <default field="RULEID_5" applyOnUpdate="0" expression=""/>
+        <default field="RULEID_5_R" applyOnUpdate="0" expression=""/>
+        <default field="OVERRIDE_5" applyOnUpdate="0" expression=""/>
+        <default field="RULEID_6" applyOnUpdate="0" expression=""/>
+        <default field="RULEID_6_R" applyOnUpdate="0" expression=""/>
+        <default field="OVERRIDE_6" applyOnUpdate="0" expression=""/>
+        <default field="GLOBALID" applyOnUpdate="0" expression=""/>
+        <default field="NUMSTORIES" applyOnUpdate="0" expression=""/>
+        <default field="STRUCTURAL" applyOnUpdate="0" expression=""/>
+        <default field="STRUCTUR00" applyOnUpdate="0" expression=""/>
+        <default field="COMMENTS" applyOnUpdate="0" expression=""/>
+        <default field="ARTIFICIAL" applyOnUpdate="0" expression=""/>
+        <default field="ARTIFICI00" applyOnUpdate="0" expression=""/>
+        <default field="CREATEDUSE" applyOnUpdate="0" expression=""/>
+        <default field="CREATEDDAT" applyOnUpdate="0" expression=""/>
+        <default field="LASTEDITOR" applyOnUpdate="0" expression=""/>
+        <default field="LASTEDITDA" applyOnUpdate="0" expression=""/>
+        <default field="HEIGHT" applyOnUpdate="0" expression=""/>
+        <default field="SHAPE_STAR" applyOnUpdate="0" expression=""/>
+        <default field="SHAPE_STLE" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="OBJECTID" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ASSET_ID" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="BLDG_NAME" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="BLDGCLASS" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="BLDGCLASS_" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="BLDGTYPE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="BLDGTYPE_R" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="BLDGSUBTYP" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="BLDGSUBT00" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="PRIMARYUSE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="PRIMARYU00" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="SECONDARYU" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="SECONDAR00" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="PREPLAN" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="POPULATION" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="INHERIT_DA" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="AM_OWNER" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="AM_OWNER_R" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="AM_DEPT" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="AM_DEPT_RE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="AM_DATE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="AM_MATERIA" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="AM_SIZE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="AM_TYPE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="AM_ESTIMAT" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MET_GATHER" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MET_DONOR" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MET_DONOR_" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MET_FORMAT" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MET_FORM00" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MET_INPUT" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MET_TECH" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MET_TECH_R" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MET_METHOD" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MET_METH00" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MET_REFILE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RULEID" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RULEID_RES" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="OVERRIDE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RULEID_1" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RULEID_1_R" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="OVERRIDE_1" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RULEID_2" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RULEID_2_R" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="OVERRIDE_2" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RULEID_3" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RULEID_3_R" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="OVERRIDE_3" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RULEID_5" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RULEID_5_R" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="OVERRIDE_5" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RULEID_6" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="RULEID_6_R" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="OVERRIDE_6" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="GLOBALID" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NUMSTORIES" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="STRUCTURAL" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="STRUCTUR00" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="COMMENTS" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ARTIFICIAL" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ARTIFICI00" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="CREATEDUSE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="CREATEDDAT" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="LASTEDITOR" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="LASTEDITDA" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="HEIGHT" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="SHAPE_STAR" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="SHAPE_STLE" unique_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="OBJECTID" exp=""/>
+        <constraint desc="" field="ASSET_ID" exp=""/>
+        <constraint desc="" field="BLDG_NAME" exp=""/>
+        <constraint desc="" field="BLDGCLASS" exp=""/>
+        <constraint desc="" field="BLDGCLASS_" exp=""/>
+        <constraint desc="" field="BLDGTYPE" exp=""/>
+        <constraint desc="" field="BLDGTYPE_R" exp=""/>
+        <constraint desc="" field="BLDGSUBTYP" exp=""/>
+        <constraint desc="" field="BLDGSUBT00" exp=""/>
+        <constraint desc="" field="PRIMARYUSE" exp=""/>
+        <constraint desc="" field="PRIMARYU00" exp=""/>
+        <constraint desc="" field="SECONDARYU" exp=""/>
+        <constraint desc="" field="SECONDAR00" exp=""/>
+        <constraint desc="" field="PREPLAN" exp=""/>
+        <constraint desc="" field="POPULATION" exp=""/>
+        <constraint desc="" field="INHERIT_DA" exp=""/>
+        <constraint desc="" field="AM_OWNER" exp=""/>
+        <constraint desc="" field="AM_OWNER_R" exp=""/>
+        <constraint desc="" field="AM_DEPT" exp=""/>
+        <constraint desc="" field="AM_DEPT_RE" exp=""/>
+        <constraint desc="" field="AM_DATE" exp=""/>
+        <constraint desc="" field="AM_MATERIA" exp=""/>
+        <constraint desc="" field="AM_SIZE" exp=""/>
+        <constraint desc="" field="AM_TYPE" exp=""/>
+        <constraint desc="" field="AM_ESTIMAT" exp=""/>
+        <constraint desc="" field="MET_GATHER" exp=""/>
+        <constraint desc="" field="MET_DONOR" exp=""/>
+        <constraint desc="" field="MET_DONOR_" exp=""/>
+        <constraint desc="" field="MET_FORMAT" exp=""/>
+        <constraint desc="" field="MET_FORM00" exp=""/>
+        <constraint desc="" field="MET_INPUT" exp=""/>
+        <constraint desc="" field="MET_TECH" exp=""/>
+        <constraint desc="" field="MET_TECH_R" exp=""/>
+        <constraint desc="" field="MET_METHOD" exp=""/>
+        <constraint desc="" field="MET_METH00" exp=""/>
+        <constraint desc="" field="MET_REFILE" exp=""/>
+        <constraint desc="" field="RULEID" exp=""/>
+        <constraint desc="" field="RULEID_RES" exp=""/>
+        <constraint desc="" field="OVERRIDE" exp=""/>
+        <constraint desc="" field="RULEID_1" exp=""/>
+        <constraint desc="" field="RULEID_1_R" exp=""/>
+        <constraint desc="" field="OVERRIDE_1" exp=""/>
+        <constraint desc="" field="RULEID_2" exp=""/>
+        <constraint desc="" field="RULEID_2_R" exp=""/>
+        <constraint desc="" field="OVERRIDE_2" exp=""/>
+        <constraint desc="" field="RULEID_3" exp=""/>
+        <constraint desc="" field="RULEID_3_R" exp=""/>
+        <constraint desc="" field="OVERRIDE_3" exp=""/>
+        <constraint desc="" field="RULEID_5" exp=""/>
+        <constraint desc="" field="RULEID_5_R" exp=""/>
+        <constraint desc="" field="OVERRIDE_5" exp=""/>
+        <constraint desc="" field="RULEID_6" exp=""/>
+        <constraint desc="" field="RULEID_6_R" exp=""/>
+        <constraint desc="" field="OVERRIDE_6" exp=""/>
+        <constraint desc="" field="GLOBALID" exp=""/>
+        <constraint desc="" field="NUMSTORIES" exp=""/>
+        <constraint desc="" field="STRUCTURAL" exp=""/>
+        <constraint desc="" field="STRUCTUR00" exp=""/>
+        <constraint desc="" field="COMMENTS" exp=""/>
+        <constraint desc="" field="ARTIFICIAL" exp=""/>
+        <constraint desc="" field="ARTIFICI00" exp=""/>
+        <constraint desc="" field="CREATEDUSE" exp=""/>
+        <constraint desc="" field="CREATEDDAT" exp=""/>
+        <constraint desc="" field="LASTEDITOR" exp=""/>
+        <constraint desc="" field="LASTEDITDA" exp=""/>
+        <constraint desc="" field="HEIGHT" exp=""/>
+        <constraint desc="" field="SHAPE_STAR" exp=""/>
+        <constraint desc="" field="SHAPE_STLE" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0" type="raster" maxScale="0">
       <extent>
         <xmin>-20037508.34278924390673637</xmin>
         <ymin>-20037508.34278925508260727</ymin>
         <xmax>20037508.34278924390673637</xmax>
         <ymax>20037508.34278924390673637</ymax>
       </extent>
-      <id>Latest_southwest_British_Columbia_Landsat_a921e6b8_c523_4c07_b513_1dad651b8818</id>
-      <datasource>type=xyz&amp;zmin=5&amp;zmax=13&amp;url=http://a.tile.paulnorman.ca/landsat_047026/{z}/{x}/{y}.png</datasource>
+      <id>Google_Satellite_505efa13_89b4_489d_a691_12e8444191bd</id>
+      <datasource>crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=https://mt1.google.com/vt/lyrs%3Ds%26x%3D%7Bx%7D%26y%3D%7By%7D%26z%3D%7Bz%7D&amp;zmax=19&amp;zmin=0</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>Latest southwest British Columbia Landsat</layername>
+      <layername>Google Satellite</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
           <srsid>3857</srsid>
           <srid>3857</srid>
           <authid>EPSG:3857</authid>
-          <description>WGS 84 / Pseudo Mercator</description>
+          <description>WGS 84 / Pseudo-Mercator</description>
           <projectionacronym>merc</projectionacronym>
           <ellipsoidacronym>WGS84</ellipsoidacronym>
           <geographicflag>false</geographicflag>
@@ -202,6 +1039,7 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <links/>
         <fees></fees>
         <encoding></encoding>
         <crs>
@@ -217,20 +1055,24 @@
           </spatialrefsys>
         </crs>
         <extent/>
-        <links/>
       </resourceMetadata>
-      <customproperties>
-        <property key="identify/format" value="Undefined"/>
-      </customproperties>
       <provider>wms</provider>
       <noData>
-        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList bandNo="1" useSrcNoData="0"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
       </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="Undefined" key="identify/format"/>
+      </customproperties>
       <pipe>
-        <rasterrenderer band="1" type="singlebandcolordata" opacity="1" alphaBand="-1">
+        <rasterrenderer alphaBand="-1" band="1" type="singlebandcolordata" opacity="1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -242,24 +1084,106 @@
           </minMaxOrigin>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
+        <huesaturation colorizeRed="255" colorizeBlue="128" grayscaleMode="0" colorizeStrength="100" saturation="0" colorizeGreen="128" colorizeOn="0"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0" minScale="1e+8" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
+    <maplayer minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0" type="raster" maxScale="0">
       <extent>
-        <xmin>-122.0001388889999987</xmin>
-        <ymin>46.9998611110000013</ymin>
-        <xmax>-120.9998611110000013</xmax>
-        <ymax>48.0001388889999987</ymax>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
       </extent>
-      <id>N47W122_d2cfd856_97e4_4f86_9613_4d571c5422fa</id>
-      <datasource>./photos/N47W122.tif</datasource>
+      <id>Latest_southwest_British_Columbia_Landsat_a921e6b8_c523_4c07_b513_1dad651b8818</id>
+      <datasource>crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://a.tile.paulnorman.ca/landsat_047026/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=13&amp;zmin=5</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>N47W122</layername>
+      <layername>Latest southwest British Columbia Landsat</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="Undefined" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer alphaBand="-1" band="1" type="singlebandcolordata" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeBlue="128" grayscaleMode="0" colorizeStrength="100" saturation="0" colorizeGreen="128" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minScale="1e+08" refreshOnNotifyMessage="" labelsEnabled="0" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" readOnly="0" geometry="Point" simplifyDrawingHints="0" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" autoRefreshTime="0" autoRefreshEnabled="0" type="vector" maxScale="0">
+      <extent>
+        <xmin>-123.20355597498878808</xmin>
+        <ymin>49.30725293411941124</ymin>
+        <xmax>-122.37922245220106277</xmax>
+        <ymax>49.40381319609060995</ymax>
+      </extent>
+      <id>Mountains_2bbee56b_6d65_4dcf_baa8_d2977d08a0c0</id>
+      <datasource>./shapefiles/Mountains.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Mountains</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -279,6 +1203,16 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
         <fees></fees>
         <encoding></encoding>
         <crs>
@@ -293,65 +1227,234 @@
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent/>
-        <links/>
+        <extent>
+          <spatial crs="" maxx="0" minz="0" dimensions="2" miny="0" minx="0" maxy="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
       </resourceMetadata>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList useSrcNoData="1" bandNo="1"/>
-      </noData>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer grayBand="1" type="singlebandgray" opacity="1" gradient="BlackToWhite" alphaBand="-1">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>MinMax</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-          <contrastEnhancement>
-            <minValue>3</minValue>
-            <maxValue>2367</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </contrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" alpha="1" force_rhr="0" type="marker">
+            <layer pass="0" class="SvgMarker" enabled="1" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="229,182,54,255"/>
+              <prop k="fixedAspectRatio" v="0"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="C:/Users/Andy/Downloads/goal.svg"/>
+              <prop k="offset" v="-0.19999999999999996,-3.80000000000000071"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="0"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <labeling type="simple">
+        <settings>
+          <text-style namedStyle="Regular" fieldName="Name" isExpression="0" fontFamily="MS Shell Dlg 2" fontCapitals="0" fontWeight="50" previewBkgrdColor="#ffffff" fontSizeUnit="Point" fontLetterSpacing="0" textOpacity="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontItalic="0" textColor="0,0,0,255" blendMode="0" useSubstitutions="0" fontSize="10" fontWordSpacing="0" fontStrikeout="0" multilineHeight="1" fontUnderline="0">
+            <text-buffer bufferDraw="0" bufferSizeUnits="MM" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferColor="255,255,255,255" bufferJoinStyle="128" bufferNoFill="1" bufferOpacity="1" bufferBlendMode="0" bufferSize="1"/>
+            <background shapeSizeType="0" shapeBorderWidth="0" shapeOffsetUnit="MM" shapeRadiiUnit="MM" shapeFillColor="255,255,255,255" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeSizeUnit="MM" shapeSizeY="0" shapeType="0" shapeRotationType="0" shapeDraw="0" shapeBorderWidthUnit="MM" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeBlendMode="0" shapeOffsetX="0" shapeRotation="0" shapeOpacity="1" shapeOffsetY="0" shapeJoinStyle="64" shapeRadiiY="0" shapeSizeX="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0" shapeSVGFile=""/>
+            <shadow shadowColor="0,0,0,255" shadowBlendMode="6" shadowUnder="0" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowDraw="0" shadowScale="100" shadowOffsetAngle="135" shadowRadius="1.5" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowOpacity="0.7" shadowRadiusUnit="MM" shadowOffsetDist="1" shadowOffsetUnit="MM" shadowOffsetGlobal="1" shadowRadiusAlphaOnly="0"/>
+            <substitutions/>
+          </text-style>
+          <text-format addDirectionSymbol="0" multilineAlign="3" decimals="3" wrapChar="" plussign="0" leftDirectionSymbol="&lt;" rightDirectionSymbol=">" placeDirectionSymbol="0" formatNumbers="0" useMaxLineLengthForAutoWrap="1" reverseDirectionSymbol="0" autoWrapLength="0"/>
+          <placement labelOffsetMapUnitScale="3x:0,0,0,0,0,0" xOffset="1" priority="5" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" rotationAngle="0" placement="1" offsetUnits="MM" offsetType="0" placementFlags="10" distMapUnitScale="3x:0,0,0,0,0,0" maxCurvedCharAngleIn="25" centroidWhole="0" yOffset="4.6" quadOffset="7" dist="0" fitInPolygonOnly="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" repeatDistanceUnits="MM" preserveRotation="1" centroidInside="0" distUnits="MM" maxCurvedCharAngleOut="-25" repeatDistance="0"/>
+          <rendering labelPerPart="0" obstacleFactor="1" minFeatureSize="0" fontLimitPixelSize="0" zIndex="0" scaleVisibility="0" limitNumLabels="0" obstacleType="0" scaleMax="0" drawLabels="1" scaleMin="0" obstacle="1" maxNumLabels="2000" displayAll="0" mergeLines="0" fontMinPixelSize="3" upsidedownLabels="0" fontMaxPixelSize="10000"/>
+          <dd_properties>
+            <Option type="Map">
+              <Option name="name" value="" type="QString"/>
+              <Option name="properties"/>
+              <Option name="type" value="collection" type="QString"/>
+            </Option>
+          </dd_properties>
+        </settings>
+      </labeling>
+      <customproperties>
+        <property value="&quot;id&quot;" key="dualview/previewExpressions"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
       <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" enabled="0" rotationOffset="270" minScaleDenominator="0" barWidth="5" lineSizeType="MM" lineSizeScale="3x:0,0,0,0,0,0" penWidth="0" scaleDependency="Area" minimumSize="0" penAlpha="255" backgroundAlpha="255" maxScaleDenominator="1e+08" opacity="1" diagramOrientation="Up" sizeType="MM" height="15" width="15" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" backgroundColor="#ffffff">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <attribute label="" field="" color="#000000"/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings priority="0" zIndex="0" dist="0" showAll="1" obstacle="0" placement="0" linePlacementFlags="18">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Elevation">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="id"/>
+        <alias index="1" name="" field="Name"/>
+        <alias index="2" name="" field="Elevation"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" applyOnUpdate="0" expression=""/>
+        <default field="Name" applyOnUpdate="0" expression=""/>
+        <default field="Elevation" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="id" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="Name" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="Elevation" unique_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="Name" exp=""/>
+        <constraint desc="" field="Elevation" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="id" hidden="0" width="-1" type="field"/>
+          <column name="Name" hidden="0" width="-1" type="field"/>
+          <column name="Elevation" hidden="0" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="Elevation" editable="1"/>
+        <field name="Name" editable="1"/>
+        <field name="id" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="Elevation" labelOnTop="0"/>
+        <field name="Name" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>id</previewExpression>
+      <mapTip></mapTip>
     </maplayer>
-    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0" minScale="1e+8" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
+    <maplayer minScale="1e+08" refreshOnNotifyMessage="" labelsEnabled="0" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" readOnly="0" geometry="Polygon" simplifyDrawingHints="1" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" autoRefreshTime="0" autoRefreshEnabled="0" type="vector" maxScale="0">
       <extent>
-        <xmin>-123.0001388889999987</xmin>
-        <ymin>46.9998611110000013</ymin>
-        <xmax>-121.9998611110000013</xmax>
-        <ymax>48.0001388889999987</ymax>
+        <xmin>485970.89157769340090454</xmin>
+        <ymin>5455354.16843593399971724</ymin>
+        <xmax>494569.10553804651135579</xmax>
+        <ymax>5459259.18358139507472515</ymax>
       </extent>
-      <id>N47W123_281df54a_c0d1_4648_832d_ecfa0c1999c5</id>
-      <datasource>./photos/N47W123.tif</datasource>
+      <id>building_footprints_2009_tall_205b7b32_4467_4dea_ad02_bf813a3ed58d</id>
+      <datasource>./shapefiles/building_footprints_2009_tall.shp|layername=building_footprints_2009_tall</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>N47W123</layername>
+      <layername>building_footprints_2009_tall</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
+          <proj4>+proj=utm +zone=10 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2287</srsid>
+          <srid>26910</srid>
+          <authid>EPSG:26910</authid>
+          <description>NAD83 / UTM zone 10N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
       <resourceMetadata>
@@ -361,6 +1464,7 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <links/>
         <fees></fees>
         <encoding></encoding>
         <crs>
@@ -376,792 +1480,291 @@
           </spatialrefsys>
         </crs>
         <extent/>
-        <links/>
       </resourceMetadata>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList useSrcNoData="1" bandNo="1"/>
-      </noData>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
       </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer grayBand="1" type="singlebandgray" opacity="1" gradient="BlackToWhite" alphaBand="-1">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>MinMax</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-          <contrastEnhancement>
-            <minValue>-11</minValue>
-            <maxValue>1339</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </contrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0" minScale="1e+8" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>-124.0001388889999987</xmin>
-        <ymin>46.9998611110000013</ymin>
-        <xmax>-122.9998611110000013</xmax>
-        <ymax>48.0001388889999987</ymax>
-      </extent>
-      <id>N47W124_2d1c6c0b_524d_41ca_8057_b2707a2dddb4</id>
-      <datasource>./photos/N47W124.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>N47W124</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-        <links/>
-      </resourceMetadata>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" alpha="1" force_rhr="0" type="fill">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="207,207,203,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
       <customproperties>
-        <property key="identify/format" value="Value"/>
+        <property value="&quot;ID&quot;" key="dualview/previewExpressions"/>
       </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList useSrcNoData="1" bandNo="1"/>
-      </noData>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer grayBand="1" type="singlebandgray" opacity="1" gradient="BlackToWhite" alphaBand="-1">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>MinMax</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-          <contrastEnhancement>
-            <minValue>-3</minValue>
-            <maxValue>2320</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </contrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
       <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ORIENT8">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLDGID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TOPELEV_M">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MED_SLOPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BASEELEV_M">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HGT_AGL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROOFTYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AREA_M2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AVGHT_M">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MINHT_M">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAXHT_M">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BASE_M">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LEN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="ID"/>
+        <alias index="1" name="" field="ORIENT8"/>
+        <alias index="2" name="" field="BLDGID"/>
+        <alias index="3" name="" field="TOPELEV_M"/>
+        <alias index="4" name="" field="MED_SLOPE"/>
+        <alias index="5" name="" field="BASEELEV_M"/>
+        <alias index="6" name="" field="HGT_AGL"/>
+        <alias index="7" name="" field="ROOFTYPE"/>
+        <alias index="8" name="" field="AREA_M2"/>
+        <alias index="9" name="" field="AVGHT_M"/>
+        <alias index="10" name="" field="MINHT_M"/>
+        <alias index="11" name="" field="MAXHT_M"/>
+        <alias index="12" name="" field="BASE_M"/>
+        <alias index="13" name="" field="LEN"/>
+        <alias index="14" name="" field="WID"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="ID" applyOnUpdate="0" expression=""/>
+        <default field="ORIENT8" applyOnUpdate="0" expression=""/>
+        <default field="BLDGID" applyOnUpdate="0" expression=""/>
+        <default field="TOPELEV_M" applyOnUpdate="0" expression=""/>
+        <default field="MED_SLOPE" applyOnUpdate="0" expression=""/>
+        <default field="BASEELEV_M" applyOnUpdate="0" expression=""/>
+        <default field="HGT_AGL" applyOnUpdate="0" expression=""/>
+        <default field="ROOFTYPE" applyOnUpdate="0" expression=""/>
+        <default field="AREA_M2" applyOnUpdate="0" expression=""/>
+        <default field="AVGHT_M" applyOnUpdate="0" expression=""/>
+        <default field="MINHT_M" applyOnUpdate="0" expression=""/>
+        <default field="MAXHT_M" applyOnUpdate="0" expression=""/>
+        <default field="BASE_M" applyOnUpdate="0" expression=""/>
+        <default field="LEN" applyOnUpdate="0" expression=""/>
+        <default field="WID" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="ID" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ORIENT8" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="BLDGID" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="TOPELEV_M" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MED_SLOPE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="BASEELEV_M" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="HGT_AGL" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ROOFTYPE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="AREA_M2" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="AVGHT_M" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MINHT_M" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="MAXHT_M" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="BASE_M" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="LEN" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="WID" unique_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="ID" exp=""/>
+        <constraint desc="" field="ORIENT8" exp=""/>
+        <constraint desc="" field="BLDGID" exp=""/>
+        <constraint desc="" field="TOPELEV_M" exp=""/>
+        <constraint desc="" field="MED_SLOPE" exp=""/>
+        <constraint desc="" field="BASEELEV_M" exp=""/>
+        <constraint desc="" field="HGT_AGL" exp=""/>
+        <constraint desc="" field="ROOFTYPE" exp=""/>
+        <constraint desc="" field="AREA_M2" exp=""/>
+        <constraint desc="" field="AVGHT_M" exp=""/>
+        <constraint desc="" field="MINHT_M" exp=""/>
+        <constraint desc="" field="MAXHT_M" exp=""/>
+        <constraint desc="" field="BASE_M" exp=""/>
+        <constraint desc="" field="LEN" exp=""/>
+        <constraint desc="" field="WID" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="ID" hidden="0" width="-1" type="field"/>
+          <column name="ORIENT8" hidden="0" width="-1" type="field"/>
+          <column name="BLDGID" hidden="0" width="-1" type="field"/>
+          <column name="TOPELEV_M" hidden="0" width="-1" type="field"/>
+          <column name="MED_SLOPE" hidden="0" width="-1" type="field"/>
+          <column name="BASEELEV_M" hidden="0" width="-1" type="field"/>
+          <column name="HGT_AGL" hidden="0" width="-1" type="field"/>
+          <column name="ROOFTYPE" hidden="0" width="-1" type="field"/>
+          <column name="AREA_M2" hidden="0" width="-1" type="field"/>
+          <column name="AVGHT_M" hidden="0" width="-1" type="field"/>
+          <column name="MINHT_M" hidden="0" width="-1" type="field"/>
+          <column name="MAXHT_M" hidden="0" width="-1" type="field"/>
+          <column name="BASE_M" hidden="0" width="-1" type="field"/>
+          <column name="LEN" hidden="0" width="-1" type="field"/>
+          <column name="WID" hidden="0" width="-1" type="field"/>
+          <column hidden="1" width="-1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"ID"</previewExpression>
+      <mapTip></mapTip>
     </maplayer>
-    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0" minScale="1e+8" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>-125.0001388889999987</xmin>
-        <ymin>46.9998611110000013</ymin>
-        <xmax>-123.9998611110000013</xmax>
-        <ymax>48.0001388889999987</ymax>
-      </extent>
-      <id>N47W125_27b15ec0_83b1_4697_b9c1_39aba1f58294</id>
-      <datasource>./photos/N47W125.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>N47W125</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-        <links/>
-      </resourceMetadata>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList useSrcNoData="1" bandNo="1"/>
-      </noData>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer grayBand="1" type="singlebandgray" opacity="1" gradient="BlackToWhite" alphaBand="-1">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>MinMax</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-          <contrastEnhancement>
-            <minValue>-6</minValue>
-            <maxValue>1012</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </contrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0" minScale="1e+8" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>-122.0001388889999987</xmin>
-        <ymin>47.9998611110000013</ymin>
-        <xmax>-120.9998611110000013</xmax>
-        <ymax>49.0001388889999987</ymax>
-      </extent>
-      <id>N48W122_88572890_2645_4686_bdcf_9f6b2cb599ab</id>
-      <datasource>./photos/N48W122.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>N48W122</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-        <links/>
-      </resourceMetadata>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList useSrcNoData="1" bandNo="1"/>
-      </noData>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer grayBand="1" type="singlebandgray" opacity="1" gradient="BlackToWhite" alphaBand="-1">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>MinMax</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-          <contrastEnhancement>
-            <minValue>19</minValue>
-            <maxValue>3111</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </contrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0" minScale="1e+8" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>-123.0001388889999987</xmin>
-        <ymin>47.9998611110000013</ymin>
-        <xmax>-121.9998611110000013</xmax>
-        <ymax>49.0001388889999987</ymax>
-      </extent>
-      <id>N48W123_9f64fa35_70f1_48b1_b45f_0ffb52e46c8c</id>
-      <datasource>./photos/N48W123.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>N48W123</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-        <links/>
-      </resourceMetadata>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList useSrcNoData="1" bandNo="1"/>
-      </noData>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer grayBand="1" type="singlebandgray" opacity="1" gradient="BlackToWhite" alphaBand="-1">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>MinMax</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-          <contrastEnhancement>
-            <minValue>-13</minValue>
-            <maxValue>1867</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </contrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0" minScale="1e+8" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>-124.0001388889999987</xmin>
-        <ymin>47.9998611110000013</ymin>
-        <xmax>-122.9998611110000013</xmax>
-        <ymax>49.0001388889999987</ymax>
-      </extent>
-      <id>N48W124_7a4c5b73_643d_46df_85b4_eca883a817a4</id>
-      <datasource>./photos/N48W124.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>N48W124</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-        <links/>
-      </resourceMetadata>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList useSrcNoData="1" bandNo="1"/>
-      </noData>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer grayBand="1" type="singlebandgray" opacity="1" gradient="BlackToWhite" alphaBand="-1">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>MinMax</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-          <contrastEnhancement>
-            <minValue>-8</minValue>
-            <maxValue>1780</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </contrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0" minScale="1e+8" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>-125.0001388889999987</xmin>
-        <ymin>47.9998611110000013</ymin>
-        <xmax>-123.9998611110000013</xmax>
-        <ymax>49.0001388889999987</ymax>
-      </extent>
-      <id>N48W125_75c96090_400d_4608_b15e_993f37e7c90e</id>
-      <datasource>./photos/N48W125.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>N48W125</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-        <links/>
-      </resourceMetadata>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList useSrcNoData="1" bandNo="1"/>
-      </noData>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer grayBand="1" type="singlebandgray" opacity="1" gradient="BlackToWhite" alphaBand="-1">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>MinMax</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-          <contrastEnhancement>
-            <minValue>-6</minValue>
-            <maxValue>1474</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </contrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0" minScale="1e+8" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>-122.0001388889999987</xmin>
-        <ymin>48.9998611110000013</ymin>
-        <xmax>-120.9998611110000013</xmax>
-        <ymax>50.0001388889999987</ymax>
-      </extent>
-      <id>N49W122_d4abe877_6fc0_44cd_9863_62c49355074a</id>
-      <datasource>./photos/N49W122.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>N49W122</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-        <links/>
-      </resourceMetadata>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList useSrcNoData="1" bandNo="1"/>
-      </noData>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer grayBand="1" type="singlebandgray" opacity="1" gradient="BlackToWhite" alphaBand="-1">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>MinMax</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-          <contrastEnhancement>
-            <minValue>5</minValue>
-            <maxValue>2396</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </contrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0" minScale="1e+8" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>-123.0001388889999987</xmin>
-        <ymin>48.9998611110000013</ymin>
-        <xmax>-121.9998611110000013</xmax>
-        <ymax>50.0001388889999987</ymax>
-      </extent>
-      <id>N49W123_07f5d14c_1291_4f03_a223_c0fed00d8fea</id>
-      <datasource>./photos/N49W123.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>N49W123</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-        <links/>
-      </resourceMetadata>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList useSrcNoData="1" bandNo="1"/>
-      </noData>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer grayBand="1" type="singlebandgray" opacity="1" gradient="BlackToWhite" alphaBand="-1">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>MinMax</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-          <contrastEnhancement>
-            <minValue>-4</minValue>
-            <maxValue>2534</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </contrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0" minScale="1e+8" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
-      <extent>
-        <xmin>-124.0001388889999987</xmin>
-        <ymin>48.9998611110000013</ymin>
-        <xmax>-122.9998611110000013</xmax>
-        <ymax>50.0001388889999987</ymax>
-      </extent>
-      <id>N49W124_98a21620_db9c_469a_b976_955a58fbd619</id>
-      <datasource>./photos/N49W124.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>N49W124</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <resourceMetadata>
-        <identifier></identifier>
-        <parentidentifier></parentidentifier>
-        <language></language>
-        <type></type>
-        <title></title>
-        <abstract></abstract>
-        <fees></fees>
-        <encoding></encoding>
-        <crs>
-          <spatialrefsys>
-            <proj4></proj4>
-            <srsid>0</srsid>
-            <srid>0</srid>
-            <authid></authid>
-            <description></description>
-            <projectionacronym></projectionacronym>
-            <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
-          </spatialrefsys>
-        </crs>
-        <extent/>
-        <links/>
-      </resourceMetadata>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList useSrcNoData="1" bandNo="1"/>
-      </noData>
-      <map-layer-style-manager current="default">
-        <map-layer-style name="default"/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer grayBand="1" type="singlebandgray" opacity="1" gradient="BlackToWhite" alphaBand="-1">
-          <rasterTransparency/>
-          <minMaxOrigin>
-            <limits>MinMax</limits>
-            <extent>WholeRaster</extent>
-            <statAccuracy>Estimated</statAccuracy>
-            <cumulativeCutLower>0.02</cumulativeCutLower>
-            <cumulativeCutUpper>0.98</cumulativeCutUpper>
-            <stdDevFactor>2</stdDevFactor>
-          </minMaxOrigin>
-          <contrastEnhancement>
-            <minValue>-11</minValue>
-            <maxValue>2631</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </contrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer autoRefreshTime="0" autoRefreshEnabled="0" type="raster" hasScaleBasedVisibilityFlag="0" minScale="1e+8" maxScale="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="">
+    <maplayer minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" autoRefreshTime="0" autoRefreshEnabled="0" type="raster" maxScale="0">
       <extent>
         <xmin>-125.0001388889999987</xmin>
-        <ymin>48.9998611110000013</ymin>
-        <xmax>-123.9998611110000013</xmax>
+        <ymin>46.9998611110000013</ymin>
+        <xmax>-120.99986110999999767</xmax>
         <ymax>50.0001388889999987</ymax>
       </extent>
-      <id>N49W125_45887736_00d3_4782_b092_c3725da0fab2</id>
-      <datasource>./photos/N49W125.tif</datasource>
+      <id>merged_1e815b49_3e50_4f11_aafa_114c22d8055e</id>
+      <datasource>./photos/merged.tif</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>N49W125</layername>
+      <layername>merged</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1181,6 +1784,7 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <links/>
         <fees></fees>
         <encoding></encoding>
         <crs>
@@ -1196,20 +1800,24 @@
           </spatialrefsys>
         </crs>
         <extent/>
-        <links/>
       </resourceMetadata>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
       <provider>gdal</provider>
       <noData>
-        <noDataList useSrcNoData="1" bandNo="1"/>
+        <noDataList bandNo="1" useSrcNoData="1"/>
       </noData>
       <map-layer-style-manager current="default">
         <map-layer-style name="default"/>
       </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
       <pipe>
-        <rasterrenderer grayBand="1" type="singlebandgray" opacity="1" gradient="BlackToWhite" alphaBand="-1">
+        <rasterrenderer alphaBand="-1" gradient="BlackToWhite" grayBand="1" type="singlebandgray" opacity="1">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>MinMax</limits>
@@ -1220,57 +1828,352 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
           <contrastEnhancement>
-            <minValue>-10</minValue>
-            <maxValue>1653</maxValue>
+            <minValue>-25</minValue>
+            <maxValue>3199</maxValue>
             <algorithm>StretchToMinimumMaximum</algorithm>
           </contrastEnhancement>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeBlue="128" saturation="0" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeRed="255" colorizeGreen="128"/>
+        <huesaturation colorizeRed="255" colorizeBlue="128" grayscaleMode="0" colorizeStrength="100" saturation="0" colorizeGreen="128" colorizeOn="0"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minScale="1e+08" refreshOnNotifyMessage="" labelsEnabled="0" simplifyLocal="1" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" readOnly="0" geometry="Polygon" simplifyDrawingHints="1" simplifyMaxScale="1" refreshOnNotifyEnabled="0" simplifyDrawingTol="1" simplifyAlgorithm="0" autoRefreshTime="0" autoRefreshEnabled="0" type="vector" maxScale="0">
+      <extent>
+        <xmin>-123.25679860078599859</xmin>
+        <ymin>49.25482354432475063</ymin>
+        <xmax>-123.23259271503069101</xmax>
+        <ymax>49.26445535134932641</ymax>
+      </extent>
+      <id>ubc_buildings_tall2_e6db49da_0d97_4291_b0a9_e6dbfecff424</id>
+      <datasource>./shapefiles/ubc_buildings_tall2.shp|layername=ubc_buildings_tall2</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ubc_buildings_tall2</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" enableorderby="0" symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol name="0" clip_to_extent="1" alpha="1" force_rhr="0" type="fill">
+            <layer pass="0" class="SimpleFill" enabled="1" locked="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="207,207,203,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="no"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="REC_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLDG_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADD_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LONGNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CLASS_CODE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="STATUS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NOTES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DATE_BUILT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="COUNT_FLOO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CONSTRUCTI">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GBA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GBA_ESTIMA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="floors (re">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="REC_ID"/>
+        <alias index="1" name="" field="BLDG_ID"/>
+        <alias index="2" name="" field="ADD_ID"/>
+        <alias index="3" name="" field="NAME"/>
+        <alias index="4" name="" field="LONGNAME"/>
+        <alias index="5" name="" field="CLASS_CODE"/>
+        <alias index="6" name="" field="STATUS"/>
+        <alias index="7" name="" field="NOTES"/>
+        <alias index="8" name="" field="DATE_BUILT"/>
+        <alias index="9" name="" field="COUNT_FLOO"/>
+        <alias index="10" name="" field="CONSTRUCTI"/>
+        <alias index="11" name="" field="GBA"/>
+        <alias index="12" name="" field="GBA_ESTIMA"/>
+        <alias index="13" name="" field="floors (re"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="REC_ID" applyOnUpdate="0" expression=""/>
+        <default field="BLDG_ID" applyOnUpdate="0" expression=""/>
+        <default field="ADD_ID" applyOnUpdate="0" expression=""/>
+        <default field="NAME" applyOnUpdate="0" expression=""/>
+        <default field="LONGNAME" applyOnUpdate="0" expression=""/>
+        <default field="CLASS_CODE" applyOnUpdate="0" expression=""/>
+        <default field="STATUS" applyOnUpdate="0" expression=""/>
+        <default field="NOTES" applyOnUpdate="0" expression=""/>
+        <default field="DATE_BUILT" applyOnUpdate="0" expression=""/>
+        <default field="COUNT_FLOO" applyOnUpdate="0" expression=""/>
+        <default field="CONSTRUCTI" applyOnUpdate="0" expression=""/>
+        <default field="GBA" applyOnUpdate="0" expression=""/>
+        <default field="GBA_ESTIMA" applyOnUpdate="0" expression=""/>
+        <default field="floors (re" applyOnUpdate="0" expression=""/>
+      </defaults>
+      <constraints>
+        <constraint notnull_strength="0" constraints="0" field="REC_ID" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="BLDG_ID" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="ADD_ID" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NAME" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="LONGNAME" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="CLASS_CODE" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="STATUS" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="NOTES" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="DATE_BUILT" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="COUNT_FLOO" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="CONSTRUCTI" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="GBA" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="GBA_ESTIMA" unique_strength="0" exp_strength="0"/>
+        <constraint notnull_strength="0" constraints="0" field="floors (re" unique_strength="0" exp_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="REC_ID" exp=""/>
+        <constraint desc="" field="BLDG_ID" exp=""/>
+        <constraint desc="" field="ADD_ID" exp=""/>
+        <constraint desc="" field="NAME" exp=""/>
+        <constraint desc="" field="LONGNAME" exp=""/>
+        <constraint desc="" field="CLASS_CODE" exp=""/>
+        <constraint desc="" field="STATUS" exp=""/>
+        <constraint desc="" field="NOTES" exp=""/>
+        <constraint desc="" field="DATE_BUILT" exp=""/>
+        <constraint desc="" field="COUNT_FLOO" exp=""/>
+        <constraint desc="" field="CONSTRUCTI" exp=""/>
+        <constraint desc="" field="GBA" exp=""/>
+        <constraint desc="" field="GBA_ESTIMA" exp=""/>
+        <constraint desc="" field="floors (re" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig sortExpression="" sortOrder="0" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
     </maplayer>
   </projectlayers>
   <layerorder>
     <layer id="Latest_southwest_British_Columbia_Landsat_a921e6b8_c523_4c07_b513_1dad651b8818"/>
-    <layer id="N47W122_d2cfd856_97e4_4f86_9613_4d571c5422fa"/>
-    <layer id="N47W123_281df54a_c0d1_4648_832d_ecfa0c1999c5"/>
-    <layer id="N47W124_2d1c6c0b_524d_41ca_8057_b2707a2dddb4"/>
-    <layer id="N47W125_27b15ec0_83b1_4697_b9c1_39aba1f58294"/>
-    <layer id="N48W122_88572890_2645_4686_bdcf_9f6b2cb599ab"/>
-    <layer id="N48W123_9f64fa35_70f1_48b1_b45f_0ffb52e46c8c"/>
-    <layer id="N48W124_7a4c5b73_643d_46df_85b4_eca883a817a4"/>
-    <layer id="N48W125_75c96090_400d_4608_b15e_993f37e7c90e"/>
-    <layer id="N49W122_d4abe877_6fc0_44cd_9863_62c49355074a"/>
-    <layer id="N49W123_07f5d14c_1291_4f03_a223_c0fed00d8fea"/>
-    <layer id="N49W124_98a21620_db9c_469a_b976_955a58fbd619"/>
-    <layer id="N49W125_45887736_00d3_4782_b092_c3725da0fab2"/>
+    <layer id="merged_1e815b49_3e50_4f11_aafa_114c22d8055e"/>
+    <layer id="Google_Satellite_505efa13_89b4_489d_a691_12e8444191bd"/>
+    <layer id="Mountains_2bbee56b_6d65_4dcf_baa8_d2977d08a0c0"/>
+    <layer id="building_footprints_2009_tall_205b7b32_4467_4dea_ad02_bf813a3ed58d"/>
+    <layer id="BldBuilding_tall_b5b9c686_6759_4264_ad30_47f9a8187c7f"/>
+    <layer id="ubc_buildings_tall2_e6db49da_0d97_4291_b0a9_e6dbfecff424"/>
   </layerorder>
   <properties>
+    <PAL>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <TextFormat type="int">0</TextFormat>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+    </PAL>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
     <Gui>
       <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
-      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
       <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
       <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
       <CanvasColorRedPart type="int">255</CanvasColorRedPart>
-      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
     </Gui>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
     <Measurement>
       <AreaUnits type="QString">m2</AreaUnits>
       <DistanceUnits type="QString">meters</DistanceUnits>
     </Measurement>
     <PositionPrecision>
-      <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
     </PositionPrecision>
-    <Paths>
-      <Absolute type="bool">false</Absolute>
-    </Paths>
-    <Legend>
-      <filterByMap type="bool">false</filterByMap>
-    </Legend>
     <SpatialRefSys>
       <ProjectionsEnabled type="int">1</ProjectionsEnabled>
     </SpatialRefSys>
@@ -1280,6 +2183,17 @@
   </properties>
   <visibility-presets/>
   <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author></author>
+    <creation></creation>
+  </projectMetadata>
   <Annotations/>
   <Layouts/>
 </qgis>
