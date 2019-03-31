@@ -14,5 +14,5 @@ Unfortunately, the conversion from qgis2threejs failed to copy over the mountain
 The following screenshot shows an interesting part of the data. This point, centered just above and to the left of UBC, shows the vast amount of large mountains surrounding the city. In my opinion, this is what makes Vancouver one of the most aesthetically satisfying cities in the world:
 ![alt text](https://ubc-geob472-spring2019.github.io/andersonfranklin-web/3d.png "View from Above UBC")
 
-####Collaboration####
+#### Collaboration
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resources for this map include the qgis2threejs and A-Frame tutorials given in previous assignments. I gained inspiration for the theme of this map from a visiting friend who was asking a number of questions about which mountains they should hike around the city.
