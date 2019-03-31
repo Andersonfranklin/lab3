@@ -1,5 +1,5 @@
-### 3-D Visualization Of The Tallest Things In Vancouver ###
-## Things you can see from UBC ##  
+## 3-D Visualization Of The Tallest Things In Vancouver ##
+### Things you can see from UBC ###  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;One of the most striking things about Vancouver for me as a foreign student was the striking verticality of the city. Both the mountains surrounding and the city itself make Vancouver a very vertically oriented city. From UBC, it feels almost that you are at the bottom of a bowl, with large buildings and even larger mountains surrounding you in almost every direction. This map was made for people who are curious as to what are the tallest things in Vancouver. Essentially, I aimed to create a map for people either from Vancouver or from outside who wanted to know more about what each of the high elevation objects, both natural and man made, were in the city. This map is successful in allowing users to pick and rotate around any point in the city and see what the top ten largest natural and manmade things are from that point.    
 
@@ -14,5 +14,5 @@ Unfortunately, the conversion from qgis2threejs failed to copy over the mountain
 The following screenshot shows an interesting part of the data. This point, centered just above and to the left of UBC, shows the vast amount of large mountains surrounding the city. In my opinion, this is what makes Vancouver one of the most aesthetically satisfying cities in the world:
 ![alt text](https://ubc-geob472-spring2019.github.io/andersonfranklin-web/3d.png "View from Above UBC")
 
-##Collaboration##
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resources for this map include the qgis2threejs and A-Frame tutorials given in previous assignments. I gained inspiration for the theme of this map from a visiting friend who was asking a number of questions about which mountains they should hike around the city. 
+####Collaboration####
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resources for this map include the qgis2threejs and A-Frame tutorials given in previous assignments. I gained inspiration for the theme of this map from a visiting friend who was asking a number of questions about which mountains they should hike around the city.
